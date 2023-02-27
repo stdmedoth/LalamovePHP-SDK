@@ -1,0 +1,18 @@
+{
+    "name": "stdmedoth/lalamove-php-sdk",
+    "description": "The LalamovePHP-SDK repository is the ideal solution for PHP developers looking to integrate Lalamove's on-demand delivery functionality into their applications.",
+    "type": "library",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Stdmedoth\\LalamovePhpSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "stdmedoth",
+            "email": "jovictor210@gmail.com"
+        }
+    ],
+    "require": {}
+}

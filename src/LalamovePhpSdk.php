@@ -2,7 +2,7 @@
 
 namespace stdmedoth;
 
-class LalamoveAPI
+class LalamovePhpSdk
 {
     protected $api_key;
     protected $api_secret;

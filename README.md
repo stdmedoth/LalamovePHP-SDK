@@ -9,14 +9,14 @@ To use the LalamovePHP-SDK, you must first authenticate with Lalamove's API. You
 ```
 require_once 'vendor/autoload.php';
 
-use stdmedoth\LalamoveAPI;
+use Stdmedoth\LalamovePhpSdk;
 
 $api_key = 'YOUR_API_KEY';
 $api_secret = 'YOUR_API_SECRET';
 $market = 'YOUR_MARKET'; // e.g. 'SG'
 $environment = 'YOUR_ENVIRONMENT'; // either 'product' or 'sandbox'
 
-$lalamove = new Lalamove($api_key, $api_secret, $market, $environment);
+$lalamove = new LalamovePhpSdk($api_key, $api_secret, $market, $environment);
 ```
 
 # Creating a Quotation
