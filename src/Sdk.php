@@ -1,8 +1,8 @@
 <?php
 
-namespace stdmedoth;
+namespace stdmedoth\LalamovePhp;
 
-class LalamovePhpSdk
+class Sdk
 {
     protected $api_key;
     protected $api_secret;
